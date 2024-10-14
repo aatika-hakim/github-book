@@ -120,5 +120,3 @@ if 'table_of_contents' in st.session_state:
             chapter_content = f"# {chapter}\n\nGenerated content for {chapter}."
             result = push_to_github(chapter, chapter_content)
             st.success(result)
-
-
